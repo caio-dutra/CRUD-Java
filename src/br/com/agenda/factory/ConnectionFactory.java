@@ -9,10 +9,10 @@ public class ConnectionFactory {
 	private static final String USERNAME = "caio";
 	
 	// senha do banco 
-	private static final String PASSWORD = "RootPassword";
+	private static final String PASSWORD = "12345";
 	
 	// caminho do banco de dados, porta, nome do banco de dados
-	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/java";
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/agenda";
 	
 	/*
 	 * Conexão com banco de dados
