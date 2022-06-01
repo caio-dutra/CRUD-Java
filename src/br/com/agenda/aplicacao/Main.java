@@ -18,21 +18,29 @@ public class Main {
 		
 		ContatoDAO contatoDao = new ContatoDAO();
 		
+		// Registrar o contato.
 		Contato contato = new Contato();
-		contato.setNome("José da Silva");
-		contato.setIdade(39);
+		contato.setNome("Seu Nome");
+		contato.setIdade(00);
 		contato.setDataCadastro(new Date());
 		
 		//contatoDao.save(contato);
 		
+		
+		
 		// Atualizar o contato.
 		Contato c1 = new Contato();
-		c1.setNome("José Antônio da Silva");
-		c1.setIdade(69);
+		c1.setNome("Seu nome atualizado");
+		c1.setIdade(00);
 		c1.setDataCadastro(new Date());
 		c1.setId(1);// É o número que está no banco de dados - Primary Key
 		
-		ContatoDAO.update(c1);
+		//ContatoDAO.update(c1);
+		
+		
+		
+		//Deletar o seu contato pelo seu número de ID.
+		ContatoDAO.deleteByID(2);
 		
 		
 		
