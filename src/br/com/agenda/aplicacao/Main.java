@@ -20,11 +20,11 @@ public class Main {
 		
 		// Registrar o contato.
 		Contato contato = new Contato();
-		contato.setNome("Seu Nome");
-		contato.setIdade(00);
+		contato.setNome("Caique");
+		contato.setIdade(21);
 		contato.setDataCadastro(new Date());
 		
-		//contatoDao.save(contato);
+		contatoDao.save(contato);
 		
 		
 		
